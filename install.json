@@ -50,7 +50,7 @@
       "bookingbutton_url": {
         "title": "Booking Button URL",
         "type": "string",
-        "order": 3
+        "order": 3,
         "enum": [
           "app-apac.thebookingbutton.com",
           "www.thebookingbutton.com.au"
