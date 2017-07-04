@@ -1,5 +1,5 @@
 ## Cloudflare Apps Google Analytics
->Add Google Analytics using Cloudflare for BookingButton sites. This fork extends the standard google analytics app.
+>Add Google Analytics using Cloudflare for BookingButton sites. This fork extends the standard Google Analytics app.
 
 _Looking for the [Google Analytics OAuth service](https://github.com/CloudflareApps/GoogleAnalyticsOAuthService)?_
 
