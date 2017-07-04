@@ -5,8 +5,8 @@
   if (!options.id) return
 
   var tbb_ga = options.id;
-  var tbb_cid = options.client_prefix;
-  var tbb_domain = 'app-apac.thebookingbutton.com';
+  var tbb_cid = options.bookingbutton_prefix;
+  var tbb_domain = options.bookingbutton_url;
   ga('create', tbb_ga, {'allowLinker': true});
   ga('require', 'linker');
   ga('linker:autoLink', [tbb_domain], false, true);
