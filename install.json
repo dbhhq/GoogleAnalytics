@@ -48,6 +48,7 @@
         "order": 2
       },
       "bookingbutton_url": {
+        "default": "app-apac.thebookingbutton.com"
         "title": "Booking Button URL",
         "type": "string",
         "order": 3,
