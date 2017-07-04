@@ -41,18 +41,26 @@
         "type": "string",
         "order": 1
       },
-      "showDomain": {
-        "title": "Enable cross-domain analytics",
-        "type": "boolean",
+      "bookingbutton_prefix": {
+        "title": "Booking Button Client PRefix",
+        "placeholder": "sydney-hotel",
+        "type": "string",
         "order": 2
       },
-      "domain": {
-        "showIf": "showDomain",
-        "title": "Universal analytics domain",
-        "placeholder": "example.com",
+      "bookingbutton_url": {
+        "title": "Booking Button URL",
         "type": "string",
-        "order": 3
-      }
+        "enum": [
+          "app-apac.thebookingbutton.com",
+          "www.thebookingbutton.com.au"
+        ],
+        "enumNames": {
+          "app-apac.thebookingbutton.com": "app-apac.thebookingbutton.com",
+          "www.thebookingbutton.com.au": "www.thebookingbutton.com.au"
+  }
+}
+      
+      
     }
   }
 }
