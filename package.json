@@ -1,6 +1,6 @@
 {
-  "name": "cloudflare-apps-google-analytics",
-  "version": "0.0.0",
+  "name": "cloudflare-apps-google-analytics-extended-for-bookingbutton",
+  "version": "0.0.1",
   "description": "",
   "main": "app.js",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CloudflareApps/GoogleAnayltics.git"
+    "url": "git+https://github.com/dbhhq/GoogleAnalytics.git"
   },
-  "author": "Cloudflare Inc.",
+  "author": "extends on work by Cloudflare Inc.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CloudflareApps/GoogleAnayltics/issues"
+    "url": "https://github.com/dbhhq/GoogleAnalytics/issues"
   },
-  "homepage": "https://github.com/CloudflareApps/GoogleAnayltics#readme",
+  "homepage": "https://github.com/dbhhq/GoogleAnalytics/#readme",
   "dependencies": {},
   "devDependencies": {
     "standard": "^9.0.2"
